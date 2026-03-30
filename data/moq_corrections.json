@@ -1,0 +1,9 @@
+{
+  "_readme": "MOQ corrections table. Keys are SKUs. Values override BigQuery MOQ data. Updated by MOQHandler.log_correction().",
+  "_schema": {
+    "moq": "Corrected minimum order quantity (buy-units)",
+    "increment": "Order increment above MOQ (defaults to moq if omitted)",
+    "note": "Why this correction exists",
+    "updated_at": "ISO 8601 timestamp of last update"
+  }
+}
